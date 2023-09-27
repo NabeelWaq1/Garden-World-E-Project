@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="books.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
 </head>
 <body>
     <nav>
         <a href="index.html"><img src="./Images/images/replicate-prediction-6vldnsbbbjrucplxuvbanzlwla.png" width="100vw" height="100vw" alt=""></a>
         <div class="nav-right">
-            <h4 href="#">Gardening Tips</h4>
+            <a  href="#"><h4 class="nav-h">Gardening Tips</h4></a>
             <div class="dropdown">
                 <button>Tools</button>
                 <div class="dropdown-options">
@@ -35,10 +36,12 @@
                   <a href="#">Decorative pebbles</a>
                 </div>
               </div>
-            <h4>Guide Books</h4>
+           <a  href="books.html"> <h4 class="nav-h">Guide Books</h4></a>
         </div>
     </nav>
+    <div class="main">
     <h1>Guide Books For Gardening</h1>
+    <div class="books-smooth">
     <div class="books">
         <div class="book1">
             <img src="books images/(Springer) Growing Food (2006)_0000.jpg" alt="">
@@ -121,6 +124,7 @@
             <a target="_blank" href="https://ia600404.us.archive.org/1/items/GardeningBooks/Gardening/Bacterial%20Wetwood%20Disease%20of%20Trees.pdf"><button>Download</button></a>
         </div>
     </div>
+</div>
     <footer>
         <div class="footer-con">
         <div class="footer-part1">
@@ -146,5 +150,11 @@
         </div>
     </div>
     </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script src="./script/books.js"></script>
 </body>
 </html>

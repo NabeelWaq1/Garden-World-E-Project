@@ -95,7 +95,7 @@ font-size: 1.4vw;
 button{
   border:none;
   border-radius:5px;
-  padding:15px 25px;
+  /* padding:15px 25px; */
   font-size:1.1vw;
   cursor:pointer;
   background-color: transparent;
@@ -198,16 +198,32 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-#b-1{
-  background-color: rgb(9, 97, 9);
+.b-1{
+  width: 10vw;
+  height: 2.8vw;
+  background-color: green;
+  border: none;
+border-radius: 50px;
+font-weight: 600;
+margin-top: 2vw;
+font-size: 1vw;
+z-index: 999;
+font-family: 'General Sans Regular';
+display: flex;
+align-items: center;
+justify-content: center;
 
 }
-#b-1:hover{
-  /* background-color: rgb(9, 97, 9); */
+.b-1:hover{
+  background-color: rgb(231, 187, 76);
+  color: rgb(9, 97, 9);;
+}
+/* #b-1:hover{
+  background-color: rgb(9, 97, 9);
   background-color: rgb(231, 187, 76);
  color: rgb(9, 97, 9);;
 
-}
+} */
 #b-2{
   background-color: rgb(231, 187, 76);
 }
@@ -571,13 +587,14 @@ width: 50vw;
   color: #17565a;
 }
 
-.div-contact>button{
+.div-contact button{
   background-color: rgb(9, 97, 9) ;
   color: white;
   border-radius: 50px;
-
+width: 150px;
+height: 50px;
 }
-.div-contact>button:hover{
+.div-contact button:hover{
   background-color: #096109 ;
   color: #E7BB4C;
   border-radius: 50px;
